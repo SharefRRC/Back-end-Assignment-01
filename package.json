@@ -1,0 +1,21 @@
+{
+  "name": "assingment-1",
+  "version": "1.0.0",
+  "description": "- A basic API structure \r - A **health check** endpoint\r - A **portfolio performance** endpoint that calculates investment performance\r - Automated tests using **Jest** and **Supertest**\r - **GitHub Actions** CI workflow for running tests and linting  push/PR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharefRRC/Back-end-Assignment-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SharefRRC/Back-end-Assignment-01/issues"
+  },
+  "homepage": "https://github.com/SharefRRC/Back-end-Assignment-01#readme"
+}
