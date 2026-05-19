@@ -4,7 +4,11 @@
   "description": "- A basic API structure \r - A **health check** endpoint\r - A **portfolio performance** endpoint that calculates investment performance\r - Automated tests using **Jest** and **Supertest**\r - **GitHub Actions** CI workflow for running tests and linting  push/PR",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/src/server.js",
+    "test": "jest --runInBand"
   },
   "repository": {
     "type": "git",
