@@ -4,10 +4,11 @@
   "description": "- A basic API structure \r - A **health check** endpoint\r - A **portfolio performance** endpoint that calculates investment performance\r - Automated tests using **Jest** and **Supertest**\r - **GitHub Actions** CI workflow for running tests and linting  push/PR",
   "main": "index.js",
   "scripts": {
-    "test": "jest --runInBand",
     "dev": "ts-node src/server.ts",
     "build": "tsc",
-    "start": "node dist/src/server.js"
+    "start": "node dist/src/server.js",
+    "test": "jest --runInBand",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -22,13 +23,16 @@
   },
   "homepage": "https://github.com/SharefRRC/Back-end-Assignment-01#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/express": "^5.0.6",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.9.1",
     "@types/supertest": "^7.2.0",
+    "eslint": "^10.4.0",
     "jest": "^30.4.2",
     "supertest": "^7.2.2",
-    "ts-jest": "^29.4.10"
+    "ts-jest": "^29.4.10",
+    "typescript-eslint": "^8.59.4"
   },
   "dependencies": {
     "express": "^5.2.1"
