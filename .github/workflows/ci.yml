@@ -5,10 +5,12 @@ on:
     branches:
       - development
       - main
+      - master
   pull_request:
     branches:
       - development
       - main
+      - master
 
 jobs:
   test-and-lint:
